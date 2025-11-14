@@ -12,3 +12,8 @@ ALTER TABLE fees
 ADD remarks VARCHAR(255):
 ALTER TABLE fees
 ADD payment_status VARCHAR(20):
+
+
+UPDATE fees
+SET payment_status = 'Paid'
+WHERE fee_id = 1;
