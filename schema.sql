@@ -8,3 +8,7 @@ VALUES (2, 102, 2000.00);
 
 INSERT INTO fees (fee_id, student_id, amount)
 VALUES (3, 103, 1750.50);
+ALTER TABLE fees
+ADD remarks VARCHAR(255):
+ALTER TABLE fees
+ADD payment_status VARCHAR(20):
