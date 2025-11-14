@@ -7,3 +7,4 @@ INSERT INTO teachers VALUES (1, 'Mr. Jexus', 'ACP');
 INSERT INTO teachers VALUES (2, 'Ms. Marielle', 'DBMS');
 INSERT INTO teachers VALUES (3, 'Mr. Baluyot', 'Physics');
 ALTER TABLE teachers ADD COLUMN department VARCHAR(100);
+UPDATE teachers SET department = 'CICS' WHERE id = 2;
