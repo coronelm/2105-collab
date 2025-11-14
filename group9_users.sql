@@ -1,1 +1,2 @@
-CREATE TABLE users (user_id INT PRIMARY KEY, username VARCHAR(50), role VARCHAR(20));
+ALTER TABLE users
+ADD COLUMN email VARCHAR(100);
