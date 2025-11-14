@@ -1,2 +1,3 @@
-ALTER TABLE users
-ADD COLUMN email VARCHAR(100);
+UPDATE users
+SET email = 'admin01@example.com'
+WHERE user_id = 1;
